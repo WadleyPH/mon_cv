@@ -38,54 +38,6 @@
   text-decoration: none;
 }
 
-@media all and (max-width: 915px) {
-  .img_profil {
-    width: 200px;
-  }
-
-  .fullname h1 {
-    font-size: 50px;
-    margin-left: 50px;
-  }
-}
-@media all and (max-width: 713px) {
-  .img_profil {
-    width: 10px;
-  }
-
-  .fullname h1 {
-    font-size: 35px;
-    margin-left: 180px;
-  }
-  .fullname ul {
-    margin-left: 150px;
-    margin-top: -30px;
-  }
-}
-@media all and (max-width: 525px) {
-  .img_profil img {
-    width: 120px;
-    margin-top: 8px;
-  }
-
-  .fullname {
-    width: 400px;
-  }
-  .fullname h1 {
-    margin-left: 150px;
-    margin-top: 30px;
-    font-size: 28px;
-  }
-  .fullname ul {
-    margin-left: 90px;
-  }
-}
-@media all and (max-width: 634px) {
-  .lineTwo .skills:nth-child(1) {
-    color: white;
-    margin-top: 30px;
-  }
-}
 #aboutme {
   background-color: gainsboro;
   position: absolute;
@@ -145,6 +97,58 @@
 }
 #competence .lineTwo .skills:nth-child(2) {
   background-color: #0099ff;
+}
+
+@media all and (max-width: 915px) {
+  .img_profil {
+    width: 200px;
+  }
+
+  .fullname h1 {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+}
+@media all and (max-width: 713px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .img_profil {
+    width: 10px;
+  }
+
+  .fullname h1 {
+    font-size: 35px;
+    margin-left: 180px;
+  }
+  .fullname ul {
+    margin-left: 150px;
+    margin-top: -30px;
+  }
+}
+@media all and (max-width: 545px) {
+  .img_profil img {
+    width: 100px;
+    margin-top: 8px;
+  }
+
+  .fullname h1 {
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 25px;
+  }
+  .fullname ul {
+    margin-left: 90px;
+  }
+
+  #aboutme {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    padding: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
