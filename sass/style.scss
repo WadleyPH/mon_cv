@@ -1,0 +1,191 @@
+#header{
+    width: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: cadetblue;;
+}
+
+
+.img_profil{
+    width: 400px;
+
+    img{
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+}
+
+
+.fullname{
+    width: 500px;
+
+    h1{
+        font-size: 60px;
+        margin-left: -90px;
+        color: white;
+    }
+    ul{
+        margin-top: -50px;
+
+        li{
+             list-style: none;
+             display: inline-block;
+             margin-left: 25px;
+             margin-top: 10px;
+        }
+
+        a{ text-decoration: none; }
+    }
+    
+
+}
+
+@media all and (max-width:915px){
+    .img_profil{
+        width: 200px;
+    }
+
+    .fullname{
+
+        h1{
+            font-size: 50px;
+            margin-left: 50px;
+        }
+
+    }
+}
+
+@media all and (max-width:713px){
+    .img_profil{
+        width: 10px;
+    }
+
+    .fullname{
+
+        h1{
+            font-size: 35px;
+            margin-left: 180px;
+        }
+
+        ul{
+            margin-left: 150px;
+            margin-top: -30px;
+        }
+
+    }
+}
+
+@media all and (max-width:525px){
+    .img_profil{
+        img{
+            width: 120px;
+            margin-top: 8px;
+        }
+    }
+
+    .fullname{
+        width: 400px;
+        h1{
+            margin-left: 150px;
+            margin-top: 30px;
+            font-size: 28px;
+        }
+        
+        ul{
+            margin-left: 90px;
+        }
+    }
+}
+
+@media all and (max-width: 634px){
+
+    .lineTwo{
+        .skills:nth-child(1){
+            color: white;
+            margin-top: 30px;
+        }
+
+    }
+}
+
+
+
+#aboutme{
+    background-color: gainsboro;
+    position: absolute;
+    top: 170px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    
+}
+
+#section-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 230px;
+    background-color: beige;
+
+}
+
+#profil{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .profil_head, .speak{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    ul{
+
+        a{text-decoration: none;}
+        li{list-style: none;}
+    }
+}
+
+#competence{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .lineOne, .lineTwo{
+        margin-right: 20px;
+        .skills{
+            width: 100%;
+            height: 40%;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .lineOne{
+        .skills:nth-child(1){
+            background-color: rgb(121, 0, 242);
+        }
+
+        .skills:nth-child(2){
+            background-color: rgb(255, 7, 90);
+        }
+    }
+
+    .lineTwo{
+        .skills:nth-child(1){
+            background-color: rgb(152, 113, 113);
+        }
+
+        .skills:nth-child(2){
+            background-color: rgb(0, 153, 255);
+        }
+    }
+
+    
+}
